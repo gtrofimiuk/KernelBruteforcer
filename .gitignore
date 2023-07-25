@@ -44,3 +44,6 @@
 *.iobj
 *.pdb
 BlockKernelBruteforcer/x64/Release/BlockKernelBruteforcer.vcxproj.FileListAbsolute.txt
+*.db-shm
+*.db-wal
+*.opendb

@@ -83,8 +83,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Program Files (x86)\or-tools\include;C:\Program Files (x86)\gsl\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Program Files (x86)\or-tools\lib;$(ICInstallDir)\compiler\lib\intel64;C:\Program Files\gsl\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(ICInstallDir)\compiler\lib\intel64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
