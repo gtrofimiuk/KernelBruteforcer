@@ -30,3 +30,17 @@
 *.exe
 *.out
 *.app
+
+*.vsidx
+*.lock
+*.suo
+*.db
+*.ipch
+*.sbr
+*.tlog
+*.ipdb
+*.bsc
+*.log
+*.iobj
+*.pdb
+BlockKernelBruteforcer/x64/Release/BlockKernelBruteforcer.vcxproj.FileListAbsolute.txt

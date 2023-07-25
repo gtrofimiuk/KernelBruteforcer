@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{11751c5c-4fdd-4dfa-85b9-3f95fc1042d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CodeFilter">
+      <UniqueIdentifier>{7df2e3f0-0cf9-4fc4-ba71-ee87d74ad867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools">
+      <UniqueIdentifier>{7336e0ca-9cec-4857-a587-e0b0dcab920a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BlockRowGenerator">
+      <UniqueIdentifier>{05002f39-da50-4524-977c-086a0fe19c67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\SRC\BinomialTools.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\CodingTools.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\LinearTools.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="testbed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\BlockKernelBruteforcer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SRC\BlockConfigurator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\CodeFilter.h">
+      <Filter>Header Files\CodeFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\BinomialTools.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\CodingTools.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\defines.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\LinearTools.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\VectorHash.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\LinearCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\BlockKernelBruteforcer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SpectrumAndCosetFilter.h">
+      <Filter>Header Files\CodeFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\BlockRowGenerator.h">
+      <Filter>Header Files\BlockRowGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\StartBlockRowGenerator.h">
+      <Filter>Header Files\BlockRowGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\CLWTBlockRowGenerator.h">
+      <Filter>Header Files\BlockRowGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\OneWeightBlockRowGenerator.h">
+      <Filter>Header Files\BlockRowGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\OneWeightBlockRowGenerator2.h">
+      <Filter>Header Files\BlockRowGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\OneWeightBlockRowGenerator1.h">
+      <Filter>Header Files\BlockRowGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\OneWeightBlockRowGenerator3.h">
+      <Filter>Header Files\BlockRowGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\CLWTRecomputer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\OneWeightBlockRowGenerator4.h">
+      <Filter>Header Files\BlockRowGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\WeightedRowGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\BlockConfigurator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\ListOfBlockRowGenerators.h">
+      <Filter>Header Files\BlockRowGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\HashedArray.h">
+      <Filter>Header Files\CodeFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\HashedSignature.h">
+      <Filter>Header Files\CodeFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\CosetFilter.h">
+      <Filter>Header Files\CodeFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SpectrumFilter.h">
+      <Filter>Header Files\CodeFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SingleBufferFilter.h">
+      <Filter>Header Files\CodeFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\CompeteCodeFilter.h">
+      <Filter>Header Files\CodeFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SignatureCodeFilter.h">
+      <Filter>Header Files\CodeFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\BlockConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\CmdOptionVal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
