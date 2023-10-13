@@ -1,6 +1,5 @@
 # KernelBruteforcer
- Implementation of the fast search method for large polarization kernels. Now it is considered for publication in IEEE Transactions on Communications. The algorithm is also described in my PhD thesis "Methods for design and decoding of polar codes with
-large kernels" https://dissovet.itmo.ru/dissertation/?number=715759
+ Implementation of the fast search method for large polarization kernels. Now it is accepted for publication in IEEE Transactions on Communications, the preprint can be found in https://arxiv.org/abs/2310.08369
 
 ## Build
 
